@@ -5,4 +5,6 @@ Import data from a .csv file to mysql using PHP
     index.php?table=test_table
 
 - You can make a .xls file normally, and convert to .csv after.
+
+- The first line of the .csv file will not be imported in the mysql
  
