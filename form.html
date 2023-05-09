@@ -24,20 +24,22 @@
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <div class="form-container">
-                    <form action="process.php">
-                        <label for="host" class="form-label">Host:</label>
-                        <input required type="text" name="host" id="host" class="form-control input-color">
-                        <label for="database" class="form-label">Database:</label>
-                        <input required type="text" name="database" id="database" class="form-control input-color">
-                        <label for="user" class="form-label">User:</label>
-                        <input required type="text" name="user" id="user" class="form-control input-color">
+                    <form action="process.php" method="post" enctype="multipart/form-data">
+                        <label for="host" class="form-label">Host*:</label>
+                        <input required type="text" name="host" id="host" class="form-control">
+                        <label for="database" class="form-label">Database*:</label>
+                        <input required type="text" name="database" id="database" class="form-control">
+                        <label for="user" class="form-label">User*:</label>
+                        <input required type="text" name="user" id="user" class="form-control">
                         <label for="password" class="form-label">Password:</label>
-                        <input required type="password" name="password" id="password" class="form-control input-color">
-                        <label for="table_name" class="form-label" style="margin-top: 25px;">Choose .CSV File</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                        <label for="table_name" class="form-label">Nome Tabela*:</label>
+                        <input required type="text" name="table_name" id="table_name" class="form-control">
+                        <label for="file" class="form-label" style="margin-top: 25px;">Choose .CSV File</label>
                         <input required type="file" name="file" id="file" accept=".csv">
                         <center>
                             <a href="index.html" class="btn btn-default index-botao">Voltar</a>
-                            <button type="submit" href="form.html" class="btn btn-default index-botao">Importar</button>
+                            <button type="submit" class="btn btn-default index-botao">Importar</button>
                         </center>
                     </form>
                 </div>

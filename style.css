@@ -20,7 +20,7 @@
 
 .index-rodape {
     font-size: 17px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .index-botao {
@@ -48,6 +48,23 @@
     margin-top: 15px;
 }
 
-.input-color {
+.sucesso-aviso {
+    background-color: #748CAB;
+    color: white;
+    margin-top: 1%;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.sucesso-tabela {
+    margin: 30px;
+}
+
+th {
+    text-align: center;
+}
+
+tr {
     background-color: #F0EBD8;
+    border-color: #0D1321;
 }
