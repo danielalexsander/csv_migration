@@ -1,3 +1,53 @@
 .background-padrao {
     background-color: #0D1321;
 }
+
+.index-aviso {
+    background-color: #748CAB;
+    color: white;
+    margin-top: 10%;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.index-texto {
+    margin: 30px;
+}
+
+.index-paragrafo {
+    font-size:22px;
+}
+
+.index-rodape {
+    font-size: 17px;
+    margin-top: 150px;
+}
+
+.index-botao {
+    background-color: #3E5C76;
+    border-color: #3E5C76;
+    width: 300px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.index-botao:hover {
+    background-color: #748CAB;
+    border-color: #748CAB;
+    color: white;
+}
+
+.form-container {
+    margin-top: 10%;
+    height: 500px;
+    color: white;
+}
+
+.form-label {
+    margin-top: 15px;
+}
+
+.input-color {
+    background-color: #F0EBD8;
+}
